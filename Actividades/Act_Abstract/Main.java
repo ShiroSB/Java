@@ -4,7 +4,12 @@ public class Main {
     public static void main(String[] args) {
         Coche coches = new Coche();
         coches.SonidoV();
-        coches.motor();
         coches.CerrarPuerta();
+        coches.motor();
+
+        Patinete patinetes = new Patinete();
+        patinetes.SonidoV();
+        patinetes.CerrarPuerta();
+        patinetes.motor();
     }
 }
