@@ -1,13 +1,15 @@
 package com.company;
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Coche coches = new Coche();
+        coches.SonidoV();
+        coches.CerrarPuerta();
+        coches.motor();
 
-public class Coche extends Vehiculos {
-
-    @Override
-    public void SonidoV() {
-        System.out.println("Rrrrrrrrr");
-    }
-    @Override
-    public void CerrarPuerta(){
-        System.out.println("Bum");
+        Patinete patinetes = new Patinete();
+        patinetes.SonidoV();
+        patinetes.CerrarPuerta();
+        patinetes.motor();
     }
 }
