@@ -4,7 +4,7 @@ El proyecto a estado inspirado en la pagina web de Observadores del Mar, que rec
 ## Requisitos
 Los requisitos de nuestro pryecto eran : 
 - El diseño e implementacion de las clases y objetos
-- Realizar un modelo modular
+- Realizar un diseño modular
 - Crear una interficie grafica para que los usuarios puedan introducir datos
 - Crear una base de datos y poder subir los datos
 - Realizar la documentacion del JavaDocs
